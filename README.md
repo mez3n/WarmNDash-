@@ -1,7 +1,7 @@
 # WarmNDash-
 
 
-This project implements a **car seat heater control system** using the **FreeRTOS kernel** on the **TM4C123GH6PM microcontroller**. The system divides responsibilities into **tasks**, enabling precise control of seat temperature, real-time error reporting, and efficient CPU utilization. The heater intensity adjusts based on **ambient temperature** readings from the **ADC driver**, with **buttons for manual adjustment**. An **EEPROM-based error reporting** module ensures persistence, and the entire project is **event-driven** with a CPU load as low as **2%.**
+This project implements a **car seat heater control system** using the [**FreeRTOS kernel**](https://www.freertos.org/Documentation/00-Overview) on the **TM4C123GH6PM microcontroller**. The system divides responsibilities into **tasks**, enabling precise control of seat temperature, real-time error reporting, and efficient CPU utilization. The heater intensity adjusts based on **ambient temperature** readings from the **ADC driver**, with **buttons for manual adjustment**. An **EEPROM-based error reporting** module ensures persistence, and the entire project is **event-driven** with a CPU load as low as **2%.**
 
 ---
 
